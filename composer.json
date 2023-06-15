@@ -1,0 +1,43 @@
+{
+    "name": "bytequests/teenyfy",
+    "description": "This will install teenyfy for shorten url",
+    "type": "library",
+    "require": {
+        "php": "^7.3|^8.0",
+        "doctrine/dbal": "^3.3",
+        "fideloper/proxy": "4.*",
+        "guzzlehttp/guzzle": "^7.0.1",
+        "jenssegers/agent": "^2.6",
+        "laravel/cashier": "^13.8",
+        "laravel/framework": "^8.75",
+        "laravel/helpers": "^1.2",
+        "laravel/passport": "^10.0",
+        "laravel/tinker": "^2.5",
+        "laravel/ui": "^3.0",
+        "razorpay/razorpay": "2.*",
+        "fastly/fastly": "*@dev",
+        "ext-curl": "*",
+        "ext-json": "*"
+    },
+    "require-dev": {
+        "filp/whoops": "~2.0",
+        "fzaninotto/faker": "~1.4",
+        "knuckleswtf/scribe": "^3.33",
+        "mockery/mockery": "~1.0",
+        "phpunit/phpunit": "^9.0",
+        "symfony/thanks": "^1.0"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Bytequests\\Teenyfy\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Lalan",
+            "email": "kumarlalan38@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
